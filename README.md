@@ -71,7 +71,7 @@ $ docker run -p 80:80 flask-app
   </code>
 </pre>
 
-Publish Docker image to Docker Hub
+### Publish Docker image to Docker Hub
 <pre><code>$ docker login --username=triplepackage
 $ docker images
 REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
@@ -80,4 +80,13 @@ flask-app                    latest              da10dbdf8e10        6 minutes a
 $ docker tag da10dbdf8e10 triplepackage/flask-app:latest
 $ docker push triplepackage/flask-app
 </code></pre>
-![Docker Hub](/dockerhub.jpg)
+![Docker Hub](/images/dockerhub.jpg)
+
+###Finally, deploy to ECS
+![AWS ECS Step 1](/images/ecs1.jpg)
+
+![AWS ECS Step 2](/images/ecs2.jpg)
+
+![AWS ECS Step 3](/images/ecs3.jpg)
+
+![AWS ECS Step 4](/images/ecs4.jpg)
