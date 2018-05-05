@@ -82,11 +82,12 @@ $ docker push triplepackage/flask-app
 </code></pre>
 ![Docker Hub](/images/dockerhub.jpg)
 
-###Finally, deploy to ECS
+### Finally, deploy to ECS
 ![AWS ECS Step 1](/images/ecs1.jpg)
 
 ![AWS ECS Step 2](/images/ecs2.jpg)
 
 ![AWS ECS Step 3](/images/ecs3.jpg)
 
+Test application is working
 ![AWS ECS Step 4](/images/ecs4.jpg)
