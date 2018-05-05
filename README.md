@@ -1,14 +1,10 @@
 # Python Flask Sample Web API
 
 To run without docker container
-
-<pre>
-  <code>python web_api.py
-  </code>
+<pre><code>python web_api.py</code>
 </pre>
 
 To run in Docker container
-
 <pre>
 <code>
 $ docker build -t flask-app .
@@ -74,3 +70,14 @@ $ docker run -p 80:80 flask-app
 
   </code>
 </pre>
+
+Publish Docker image to Docker Hub
+<pre><code>$ docker login --username=triplepackage
+$ docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+flask-app                    latest              da10dbdf8e10        6 minutes ago       699MB
+
+$ docker tag da10dbdf8e10 triplepackage/flask-app:latest
+$ docker push triplepackage/flask-app
+</code></pre>
+![Docker Hub](/dockerhub.jpg)
