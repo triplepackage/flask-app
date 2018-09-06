@@ -1,4 +1,4 @@
-# Python Flask Sample Web API
+# Python Flask Sample Web API Deployed to AWS ECS
 
 To run without docker container
 <pre><code>python web_api.py</code>
