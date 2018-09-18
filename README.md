@@ -102,6 +102,21 @@ e68319026069: Pushed
 latest: digest: sha256:44a9643320d1805ccb0371d8f63df6d22c93b01aa1ba908b27a870d81d5bec75 size: 2429
 </pre>
 
+Deploy Docker container in ECS
+
+![Flask App In AWS ECS](/images/ecr-ecs-01.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-02.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-03.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-04.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-05.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-06.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-07.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-08.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-09.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-10.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-11.jpg)
+![Flask App In AWS ECS](/images/ecr-ecs-12.jpg)
+
 ## Previous Instructions for Building Docker Container, Publishing to AWS ECR and Running Container in ECS
 
 To run in Docker container
